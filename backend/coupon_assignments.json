@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "couponId": 1,
+    "userId": "69a96d1c7ee8b48b2955caf3",
+    "userEmail": "manankansara38@gmail.com",
+    "sentAt": "2026-03-10T06:42:47.274Z",
+    "used": false,
+    "usedAt": null,
+    "orderId": null
+  },
+  {
+    "id": 2,
+    "couponId": 1,
+    "userId": "69aa701b3a5c908144e348f1",
+    "userEmail": "manan@gmail.com",
+    "sentAt": "2026-03-10T06:42:47.288Z",
+    "used": true,
+    "usedAt": "2026-03-10T09:43:04.150Z",
+    "orderId": "69afe7a8a699829bc0dd24b8"
+  },
+  {
+    "id": 3,
+    "couponId": 1,
+    "userId": "69afb84707c280ef5c2cc905",
+    "userEmail": "kansaramanan80@gmail.com",
+    "sentAt": "2026-03-10T06:42:47.289Z",
+    "used": false,
+    "usedAt": null,
+    "orderId": null
+  },
+  {
+    "id": 4,
+    "couponId": 3,
+    "userId": "69a96d1c7ee8b48b2955caf3",
+    "userEmail": "manankansara38@gmail.com",
+    "sentAt": "2026-03-12T05:12:49.437Z",
+    "used": false,
+    "usedAt": null,
+    "orderId": null
+  },
+  {
+    "id": 5,
+    "couponId": 3,
+    "userId": "69aa701b3a5c908144e348f1",
+    "userEmail": "manan@gmail.com",
+    "sentAt": "2026-03-12T05:12:49.445Z",
+    "used": true,
+    "usedAt": "2026-03-13T06:57:55.339Z",
+    "orderId": "69b3b573a127f2a1ad8dab7b"
+  },
+  {
+    "id": 6,
+    "couponId": 3,
+    "userId": "69afb84707c280ef5c2cc905",
+    "userEmail": "kansaramanan80@gmail.com",
+    "sentAt": "2026-03-12T05:12:49.446Z",
+    "used": false,
+    "usedAt": null,
+    "orderId": null
+  }
+]

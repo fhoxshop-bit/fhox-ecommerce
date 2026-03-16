@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#000000"/>
+  
+  <!-- Phoenix Circle -->
+  <circle cx="550" cy="300" r="140" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Phoenix Bird (simplified) -->
+  <g transform="translate(550, 300)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="45" ry="55" fill="#FFFFFF"/>
+    <!-- Head -->
+    <circle cx="0" cy="-50" r="30" fill="#FFFFFF"/>
+    <!-- Beak -->
+    <polygon points="20,-50 45,-48 20,-52" fill="#FFFFFF"/>
+    <!-- Left Wing -->
+    <path d="M -30,-20 Q -70,-40 -80,-10 Q -70,10 -30,0" fill="#FFFFFF"/>
+    <!-- Right Wing -->
+    <path d="M 30,-20 Q 70,-40 80,-10 Q 70,10 30,0" fill="#FFFFFF"/>
+    <!-- Tail Feathers -->
+    <path d="M 0,50 Q 30,70 20,95" stroke="#FFFFFF" stroke-width="6" fill="none"/>
+    <path d="M 0,50 Q -30,70 -20,95" stroke="#FFFFFF" stroke-width="6" fill="none"/>
+    <path d="M 0,50 Q 0,75 0,100" stroke="#FFFFFF" stroke-width="6" fill="none"/>
+  </g>
+  
+  <!-- FHOX Text -->
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#FFFFFF">FHOX</text>
+  
+  <!-- Born to Rise Text -->
+  <text x="850" y="320" font-family="Arial, sans-serif" font-size="36" font-weight="300" fill="#FFFFFF" letter-spacing="2">
+    "Born to Rise"
+  </text>
+</svg>

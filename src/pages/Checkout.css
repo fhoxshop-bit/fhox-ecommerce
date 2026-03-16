@@ -1,0 +1,361 @@
+.checkout-page {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #1a1a1a;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  border-radius: 8px;
+}
+
+.checkout-page h1,
+.checkout-page h2 {
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.checkout-form input[type="text"],
+.checkout-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background: #2d2d2d;
+  color: #fff;
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #fdf1f1;
+}
+
+.checkout-form h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.checkout-summary {
+  margin: 20px 0;
+  background: #2d2d2d;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.summary-item span:first-child {
+  font-weight: 500;
+}
+
+.summary-item span:last-child {
+  font-weight: 600;
+  color: #ff6b00;
+}
+
+.summary-item.info-item {
+  color: #aaa;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.summary-item.info-item span:last-child {
+  color: #bbb;
+}
+
+.summary-item.discount-item {
+  color: #ff6b35;
+  font-weight: 700;
+  background: rgba(255, 107, 53, 0.05);
+  padding: 8px 10px;
+  border-radius: 4px;
+  border-left: 3px solid #ff6b35;
+}
+
+.summary-item.discount-item span:last-child {
+  color: #ff6b35;
+}
+
+.discount-amount {
+  color: #4caf50 !important;
+  font-weight: 700;
+}
+
+.summary-total {
+  border-top: 2px solid #ff6b00;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.summary-total span:last-child {
+  color: #ff6b00;
+  font-size: 18px;
+}
+
+.checkout-submit {
+  padding: 12px 24px;
+  background-color: #ff6b00;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.checkout-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cod-unavailable-message {
+  color: #dc2626;
+  font-size: 14px;
+  margin: -8px 0 12px 24px;
+  font-weight: 500;
+}
+
+.checkout-form input[type="radio"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Order Items Section */
+.order-items {
+  background: #2d2d2d;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #1a1a1a;
+  border: 1px solid #3d3d3d;
+  border-radius: 6px;
+}
+
+.order-item-info {
+  flex: 1;
+}
+
+.order-item-name {
+  margin: 0 0 5px 0;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+}
+
+.order-item-size {
+  margin: 0 0 4px 0;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.order-item-qty {
+  margin: 0 0 4px 0;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.order-item-flash-deal {
+  margin: 6px 0 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ff6b35;
+  background: rgba(255, 107, 53, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  letter-spacing: 0.3px;
+}
+
+.order-item-price-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.order-item-original-price {
+  font-size: 12px;
+  color: #aaa;
+  text-decoration: line-through;
+  font-weight: 500;
+  margin: 0;
+}
+
+.order-item-total {
+  font-weight: 600;
+  color: #ff6b00;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Coupon Input Section */
+.coupon-input-section {
+  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+  border: 2px solid #2196F3;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.coupon-label {
+  margin: 0 0 12px 0;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+}
+
+.coupon-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.coupon-input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #2d2d2d;
+  color: #fff;
+}
+
+.coupon-input:focus {
+  outline: none;
+  border-color: #ff6b35;
+  box-shadow: 0 0 5px rgba(255, 107, 53, 0.3);
+}
+
+.coupon-apply-btn {
+  padding: 10px 20px;
+  background: #ff6b35;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.coupon-apply-btn:hover:not(:disabled) {
+  background: #ff5722;
+}
+
+.coupon-apply-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.coupon-error {
+  margin: 0;
+  color: #f44336;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Coupon Applied Section */
+.coupon-applied-section {
+  margin: 15px 0;
+}
+
+.coupon-applied-box {
+  background: #2d2d2d;
+  border: 2px solid #ff6b35;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.coupon-applied-text {
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.coupon-savings {
+  margin: 5px 0 0 0;
+  color: #ff6b35;
+  font-size: 13px;
+}
+
+.coupon-remove-btn {
+  padding: 6px 12px;
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.coupon-remove-btn:hover {
+  background: #da190b;
+}
+
+/* Discount Item in Summary */
+.discount-item {
+  color: #ff6b35;
+  font-weight: 600;
+}
+
+.discount-item span:last-child {
+  color: #ff6b35;
+}
+
+.discount-amount {
+  color: #ff6b35;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .checkout-page {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  .coupon-applied-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .coupon-remove-btn {
+    width: 100%;
+  }
+}

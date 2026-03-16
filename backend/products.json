@@ -1,0 +1,863 @@
+[
+  {
+    "stock": 6,
+    "active": true,
+    "codAvailable": false,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 2,
+      "M": 2,
+      "L": 2,
+      "XL": 2,
+      "XXL": 2,
+      "XXXL": 2
+    },
+    "id": 2,
+    "name": "rhsrhs",
+    "gender": "Male",
+    "price": 465,
+    "description": "hgktfgjtfgj",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661140/fhox-ecommerce/products/hdzaqk926fgmrba2wzmw.jpg",
+    "sizes": {
+      "S": {
+        "stock": 2
+      },
+      "M": {
+        "stock": 2
+      },
+      "L": {
+        "stock": 2
+      },
+      "XL": {
+        "stock": 1
+      },
+      "XXL": {
+        "stock": 1
+      },
+      "XXXL": {
+        "stock": 1
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 3,
+    "name": "sdfhdfnn",
+    "gender": "Male",
+    "price": 53,
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661141/fhox-ecommerce/products/ufuzw6ek6jwhki57hgzt.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 4,
+    "name": "fyhdfhndfhn",
+    "gender": "Men",
+    "price": 53,
+    "description": "thedtjtjtgj",
+    "imageUrl": null,
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 5,
+    "name": "gsgsdsg",
+    "gender": "Men",
+    "price": 24534,
+    "description": "awfgsrhgdfhtgjh",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661143/fhox-ecommerce/products/b4aa1zbpssngl7sibgqa.avif",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 10,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 5,
+      "M": 5,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 6,
+    "name": "wfwfafa",
+    "gender": "Male",
+    "price": 8385,
+    "description": "dgbsdbsb",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661144/fhox-ecommerce/products/vvslsed5wwwxws8t1emd.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    },
+    "actualPrice": 8385,
+    "discountPrice": 8000
+  },
+  {
+    "stock": 29,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 4,
+      "M": 5,
+      "L": 5,
+      "XL": 5,
+      "XXL": 5,
+      "XXXL": 5
+    },
+    "id": 7,
+    "name": "fadgvadv",
+    "gender": "Male",
+    "price": 2353,
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661145/fhox-ecommerce/products/wj32lrwolpebv7gnlgti.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    },
+    "actualPrice": 2353,
+    "discountPrice": 2353
+  },
+  {
+    "stock": 0,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 8,
+    "name": "wryerherh",
+    "gender": "Men",
+    "price": 576.99,
+    "description": "rhrhrh",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661146/fhox-ecommerce/products/qejoepwnughud1hgbzru.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 9,
+    "name": "wetfgefg",
+    "gender": "Men",
+    "price": 786,
+    "description": " segsrhfhdf",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661148/fhox-ecommerce/products/ldlpoflt12dhermjdvse.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 10,
+    "name": "gvdd",
+    "gender": "Male",
+    "price": 5,
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661149/fhox-ecommerce/products/eqnwz0ks0vdteou250x8.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 11,
+    "name": "56fhbdbd",
+    "gender": "Male",
+    "price": 5868,
+    "description": "dhfdhndf",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661151/fhox-ecommerce/products/vk3owvjvmujpgtknsjsu.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 12,
+    "name": "rhsrhshsdh",
+    "gender": "Male",
+    "price": 463,
+    "description": "bfnfgnfgn",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661152/fhox-ecommerce/products/tawqzly8nwhv7lrtfkx9.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": false,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 13,
+    "name": "rhsrhshsdh",
+    "gender": "Male",
+    "price": 374,
+    "description": "tgythdfjhd",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661153/fhox-ecommerce/products/z48a4noroasgq1lyp9hz.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": false,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 14,
+    "name": "rhsrhshsdh",
+    "gender": "Male",
+    "price": 463,
+    "description": "vjnfvfvmn ",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661154/fhox-ecommerce/products/iqpghgtcgojq3sao8lbe.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": false,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 15,
+    "name": "rhsrhshsdh",
+    "gender": "Male",
+    "price": 463,
+    "description": "fwevwdv",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661155/fhox-ecommerce/products/dpv15yqu1ys6rtvfncea.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 0,
+    "active": true,
+    "codAvailable": false,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0,
+      "XXXL": 0
+    },
+    "id": 16,
+    "name": "efefef",
+    "gender": "Male",
+    "price": 463,
+    "description": "edgwrgrgrg",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661156/fhox-ecommerce/products/brjx100cxaeeyqzjihfs.jpg",
+    "sizes": {
+      "S": {
+        "stock": 0
+      },
+      "M": {
+        "stock": 0
+      },
+      "L": {
+        "stock": 0
+      },
+      "XL": {
+        "stock": 0
+      },
+      "XXL": {
+        "stock": 0
+      },
+      "XXXL": {
+        "stock": 0
+      }
+    }
+  },
+  {
+    "stock": 496,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 84,
+      "M": 80,
+      "L": 84,
+      "XL": 84,
+      "XXL": 84,
+      "XXXL": 84
+    },
+    "id": 17,
+    "name": "lllllll",
+    "gender": "Female",
+    "price": 8888,
+    "description": "buhup9hui",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661158/fhox-ecommerce/products/g6biasnnvmkptdgqzl1k.webp",
+    "sizes": {
+      "S": {
+        "stock": 84
+      },
+      "M": {
+        "stock": 84
+      },
+      "L": {
+        "stock": 83
+      },
+      "XL": {
+        "stock": 83
+      },
+      "XXL": {
+        "stock": 83
+      },
+      "XXXL": {
+        "stock": 83
+      }
+    }
+  },
+  {
+    "stock": 119,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 20,
+      "M": 20,
+      "L": 17,
+      "XL": 20,
+      "XXL": 20,
+      "XXXL": 20
+    },
+    "id": 18,
+    "name": "hhhhh",
+    "gender": "Female",
+    "price": 888,
+    "description": "hfdbndfbn",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661159/fhox-ecommerce/products/uvwhndrc6wxloqaucsro.webp",
+    "sizes": {
+      "S": {
+        "stock": 55
+      },
+      "M": {
+        "stock": 20
+      },
+      "L": {
+        "stock": 5
+      },
+      "XL": {
+        "stock": 33
+      },
+      "XXL": {
+        "stock": 2
+      },
+      "XXXL": {
+        "stock": 1
+      }
+    }
+  },
+  {
+    "stock": 41,
+    "active": true,
+    "codAvailable": true,
+    "availableSizes": [
+      "S",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL",
+      "M"
+    ],
+    "sizeStock": {
+      "S": 10,
+      "M": 5,
+      "L": 10,
+      "XL": 7,
+      "XXL": 7,
+      "XXXL": 2
+    },
+    "id": 19,
+    "name": "yyyyyyy",
+    "gender": "Female",
+    "price": 555,
+    "description": "weweg wg ",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661160/fhox-ecommerce/products/xor8ehdfyztgkcxliarr.webp",
+    "actualPrice": 555,
+    "discountPrice": 400
+  },
+  {
+    "stock": 135,
+    "active": true,
+    "codAvailable": false,
+    "availableSizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "sizeStock": {
+      "S": 10,
+      "M": 5,
+      "L": 0,
+      "XL": 110,
+      "XXL": 5,
+      "XXXL": 5
+    },
+    "id": 20,
+    "name": "ooooooo",
+    "gender": "Male",
+    "price": 555,
+    "description": "zdfbsdfbsdv ",
+    "imageUrl": "https://res.cloudinary.com/dmanbuay5/image/upload/v1773661161/fhox-ecommerce/products/v77qyrryajbm0q029zvb.jpg",
+    "actualPrice": 555,
+    "discountPrice": 450
+  }
+]
