@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useAuthModal } from '../context/AuthModalContext';
+import { getLogoUrl } from '../utils/cloudinaryImageService';
 
 export default function AuthModal() {
   const { showAuthModal, authModalMode, closeAuthModal } = useAuthModal();
@@ -76,7 +77,7 @@ export default function AuthModal() {
       <div className="auth-modal" onClick={e => e.stopPropagation()}>
         <button className="auth-close" onClick={closeAuthModal}>×</button>
         <div className="auth-left">
-          <img src="/images/fhox.png" alt="Logo" className="auth-logo" />
+          <img src={getLogoUrl('fhox.png')} alt="Logo" className="auth-logo" />
           <h2>{mode === 'login' ? 'Login to your Account' : 'Create new Account'}</h2>
           <form onSubmit={handleSubmit}>
             {mode === 'signup' && (

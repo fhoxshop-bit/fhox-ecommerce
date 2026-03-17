@@ -3,6 +3,7 @@ import { NavLink, useNavigate } from 'react-router-dom'
 import { useCart } from '../context/CartContext'
 import { useAuth } from '../context/AuthContext'
 import { useAuthModal } from '../context/AuthModalContext'
+import { getLogoUrl } from '../utils/cloudinaryImageService'
 
 export default function Header(){
   const navigate = useNavigate();
@@ -76,7 +77,7 @@ export default function Header(){
       <header className="site-header">
         <div className="header-inner">
           <div className="logo">
-            <img src="/images/fhox.png" alt="FHOX" className="logo-img" />
+            <img src={getLogoUrl('fhox.png')} alt="FHOX" className="logo-img" />
           </div>
 
           {/* Desktop Navigation */}

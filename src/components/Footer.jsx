@@ -1,4 +1,5 @@
 import React from 'react';
+import { getLogoUrl } from '../utils/cloudinaryImageService';
 
 export default function Footer() {
   return (
@@ -6,7 +7,7 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-left">
           <div className="footer-logo">
-            <img src="/images/logo2.png" alt="FHOX Logo" />
+            <img src={getLogoUrl('logo2.png')} alt="FHOX Logo" />
           </div>
           <div className="footer-socials">
             <a href="#" className="social-icon" aria-label="Facebook">
