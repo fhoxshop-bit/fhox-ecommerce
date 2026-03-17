@@ -1,4 +1,7 @@
-{
+// src/utils/cloudinaryVideoService.js
+// Load video URLs from Cloudinary mapping
+
+const CLOUDINARY_VIDEO_MAPPING = {
   "3209241-uhd_3840_2160_25fps.mp4": "https://res.cloudinary.com/dmanbuay5/video/upload/v1773724402/fhox-ecommerce/videos/ihho2pk5il2t1ocgavm7.mp4",
   "4182916-uhd_3840_2160_30fps.mp4": "https://res.cloudinary.com/dmanbuay5/video/upload/v1773724426/fhox-ecommerce/videos/ljbfpnrvtvo7byghx5r9.mp4",
   "4761426-uhd_4096_2160_25fps.mp4": "https://res.cloudinary.com/dmanbuay5/video/upload/v1773724435/fhox-ecommerce/videos/cmazwxzyywrjtnrqqzn5.mp4",
@@ -16,4 +19,43 @@
   "Image_To_Video_Conversion.mp4": "https://res.cloudinary.com/dmanbuay5/video/upload/v1773724551/fhox-ecommerce/videos/ie8d9nukuanjfeqt4egy.mp4",
   "WhatsApp Video 2026-03-01 at 05.16.47.mp4": "https://res.cloudinary.com/dmanbuay5/video/upload/v1773724573/fhox-ecommerce/videos/bngwqut3hrcxjdsytpai.mp4",
   "72564-543910238.mp4": "https://res.cloudinary.com/dmanbuay5/video/upload/v1773725125/fhox-ecommerce/videos/gjcpb11c4dzrbjftmkf9.mp4"
+}
+
+/**
+ * Get Cloudinary video URL for a given video filename
+ * @param {string} filename - The local video filename
+ * @returns {string} - The Cloudinary URL or null if not found
+ */
+export const getVideoUrl = (filename) => {
+  return CLOUDINARY_VIDEO_MAPPING[filename] || null
+}
+
+/**
+ * Get all available videos
+ * @returns {object} - All video mappings
+ */
+export const getAllVideos = () => {
+  return CLOUDINARY_VIDEO_MAPPING
+}
+
+/**
+ * Example usage in a component:
+ * 
+ * import { getVideoUrl } from '@/utils/cloudinaryVideoService'
+ * 
+ * function VideoComponent() {
+ *   const videoUrl = getVideoUrl('72564-543910238.mp4')
+ *   
+ *   return (
+ *     <video width="100%" controls>
+ *       <source src={videoUrl} type="video/mp4" />
+ *       Your browser does not support the video tag.
+ *     </video>
+ *   )
+ * }
+ */
+
+export default {
+  getVideoUrl,
+  getAllVideos
 }
