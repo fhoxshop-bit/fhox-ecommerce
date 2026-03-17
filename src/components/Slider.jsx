@@ -1,10 +1,11 @@
 import React, { useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { getVideoUrl } from "../utils/cloudinaryVideoService";
 import "./Slider.css";
 
 const data = [
-  { id: 1, title: "Men", video: "/videos/9710159-uhd_3840_2160_25fps.mp4", type: "video" },
-  { id: 2, title: "Women", video: "/videos/7871216-uhd_4096_2160_25fps.mp4", type: "video" },
+  { id: 1, title: "Men", video: "9710159-uhd_3840_2160_25fps.mp4", type: "video" },
+  { id: 2, title: "Women", video: "7871216-uhd_4096_2160_25fps.mp4", type: "video" },
 ];
 
 export default function Slider() {
@@ -26,7 +27,7 @@ export default function Slider() {
             <div className="card-image">
               {item.type === "video" ? (
                 <video autoPlay muted loop playsInline>
-                  <source src={item.video} type="video/mp4" />
+                  <source src={getVideoUrl(item.video)} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               ) : (

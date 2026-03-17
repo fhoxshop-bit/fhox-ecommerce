@@ -1,8 +1,9 @@
 import React from 'react'
+import { getVideoUrl } from '../utils/cloudinaryVideoService'
 
 export default function Banner({ videoSrc }){
   // allow pages to pass custom video path, default to original
-  const src = videoSrc || "/videos/6214743-uhd_4096_2160_25fps.mp4";
+  const src = videoSrc || getVideoUrl('6214743-uhd_4096_2160_25fps.mp4');
   return (
     <div className="banner-video">
       <div className="video-wrap">

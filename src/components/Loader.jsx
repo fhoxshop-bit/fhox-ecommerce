@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './Loader.css';
+import { getVideoUrl } from '../utils/cloudinaryVideoService';
 
 export default function Loader({ onLoadComplete }) {
   const [isVisible, setIsVisible] = useState(true);
@@ -33,7 +34,7 @@ export default function Loader({ onLoadComplete }) {
         muted
         playsInline
       >
-        <source src="/videos/Image_To_Video_Conversion.mp4" type="video/mp4" />
+        <source src={getVideoUrl('Image_To_Video_Conversion.mp4')} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

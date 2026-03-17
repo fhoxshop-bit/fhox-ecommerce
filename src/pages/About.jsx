@@ -41,7 +41,7 @@ const About = () => {
           muted 
           playsInline
         >
-          <source src="/videos/Image_To_Video_Conversion.mp4" type="video/mp4" />
+          <source src={getVideoUrl('Image_To_Video_Conversion.mp4')} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>

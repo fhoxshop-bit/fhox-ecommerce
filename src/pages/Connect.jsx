@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { getVideoUrl } from '../utils/cloudinaryVideoService';
 import './Connect.css';
 
 const Connect = () => {
@@ -132,7 +133,7 @@ const Connect = () => {
           muted 
           playsInline
         >
-          <source src="/videos/8865709-hd_1920_1080_25fps.mp4" type="video/mp4" />
+          <source src={getVideoUrl('8865709-hd_1920_1080_25fps.mp4')} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         

@@ -4,13 +4,14 @@ import FlashDealsSlider from '../components/FlashDealsSlider';
 import Slider from '../components/Slider';
 import BottomBanner from '../components/BottomBanner';
 import HeroSection from '../components/HeroSection';
+import { getVideoUrl } from '../utils/cloudinaryVideoService';
 
 export default function Home() {
   return (
     <div className="home-page">
       {/* Section 1: Banner - 500px height */}
       <section className="home-banner-section">
-        <Banner videoSrc="/videos/5899457-hd_1920_1080_24fps.mp4" />
+        <Banner videoSrc={getVideoUrl('5899457-hd_1920_1080_24fps.mp4')} />
       </section>
 
       {/* Section 2: Tagline - Define Your Style */}

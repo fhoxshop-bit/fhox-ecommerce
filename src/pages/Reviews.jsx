@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ReviewDisplay from '../components/ReviewDisplay';
+import { getVideoUrl } from '../utils/cloudinaryVideoService';
 import './Reviews.css';
 
 export default function Reviews() {
@@ -77,7 +78,7 @@ export default function Reviews() {
             muted 
             playsInline
           >
-            <source src="/videos/4182916-uhd_3840_2160_30fps.mp4" type="video/mp4" />
+            <source src={getVideoUrl('4182916-uhd_3840_2160_30fps.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           

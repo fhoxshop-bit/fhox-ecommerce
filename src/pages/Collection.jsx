@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { useAuthModal } from '../context/AuthModalContext';
+import { getVideoUrl } from '../utils/cloudinaryVideoService';
 import ReviewForm from '../components/ReviewForm';
 import ReviewDisplay from '../components/ReviewDisplay';
 import './Collection.css';
@@ -265,7 +266,7 @@ export default function Collection() {
           muted 
           playsInline
         >
-          <source src="/videos/72564-543910238.mp4" type="video/mp4" />
+          <source src={getVideoUrl('72564-543910238.mp4')} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         
