@@ -1,12 +1,13 @@
 import React, { useRef, useState } from 'react';
+import { getSponsorLogoUrl } from '../utils/cloudinaryImageService';
 
 export default function SponsorSlider() {
   const sponsorsData = [
-    { id: 1, name: 'EATFIT', logo: '/images/eatfit.png' },
-    { id: 2, name: 'MINDLER', logo: '/images/mindler.png' },
-    { id: 3, name: 'MYNTRA', logo: '/images/myntra.png' },
-    { id: 4, name: 'NOISE', logo: '/images/noise.png' },
-    { id: 5, name: 'BOAT', logo: '/images/boat.png' },
+    { id: 1, name: 'EATFIT', logo: 'eatfit.png' },
+    { id: 2, name: 'MINDLER', logo: 'mindler.png' },
+    { id: 3, name: 'MYNTRA', logo: 'myntra.png' },
+    { id: 4, name: 'NOISE', logo: 'noise.png' },
+    { id: 5, name: 'BOAT', logo: 'boat.png' },
   ];
 
   const sliderRef = useRef(null);
@@ -49,7 +50,7 @@ export default function SponsorSlider() {
       >
         {sponsorsData.map((sponsor) => (
           <div key={sponsor.id} className="sponsor-item">
-            <img src={sponsor.logo} alt={sponsor.name} />
+            <img src={getSponsorLogoUrl(sponsor.logo)} alt={sponsor.name} />
           </div>
         ))}
       </div>

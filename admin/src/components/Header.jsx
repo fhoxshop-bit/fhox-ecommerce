@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { FiMenu, FiBell, FiLogOut } from 'react-icons/fi'
 import { useNavigate } from 'react-router-dom'
+import { getLogoUrl } from '../utils/cloudinaryImageService'
 import './Header.css'
 
 export default function Header({ onMenuClick, onLogout }) {
@@ -146,7 +147,7 @@ export default function Header({ onMenuClick, onLogout }) {
 
         <div className="header-user">
           <div className="user-avatar-small">
-            <img src="/images/fhoxxxx.png" alt="FHOX" className="header-logo" />
+            <img src={getLogoUrl('fhoxxxx.png')} alt="FHOX" className="header-logo" />
           </div>
           <span>Admin</span>
         </div>

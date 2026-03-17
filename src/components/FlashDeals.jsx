@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
+import { getDefaultImageUrl } from '../utils/cloudinaryImageService';
 import './FlashDeals.css';
 
 export default function FlashDeals() {
@@ -153,7 +154,7 @@ export default function FlashDeals() {
 
                 <div className="flash-product-image">
                   <img
-                    src={product.imageUrl || product.image || '/images/apparel.png'}
+                    src={product.imageUrl || product.image || getDefaultImageUrl('apparel.png')}
                     alt={product.name}
                   />
                   <div className="flash-discount-overlay">{deal.discountPercent}% OFF</div>
@@ -219,7 +220,7 @@ export default function FlashDeals() {
             
             <div className="modal-product-container">
               <div className="modal-product-image">
-                <img src={selectedProduct.imageUrl || selectedProduct.image || '/images/apparel.png'} alt={selectedProduct.name} />
+                <img src={selectedProduct.imageUrl || selectedProduct.image || getDefaultImageUrl('apparel.png')} alt={selectedProduct.name} />
               </div>
               
               <div className="modal-product-info">

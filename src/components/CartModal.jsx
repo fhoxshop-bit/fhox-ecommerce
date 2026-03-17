@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useCart } from '../context/CartContext';
 import { useNavigate } from 'react-router-dom';
+import { getDefaultImageUrl } from '../utils/cloudinaryImageService';
 import './CartModal.css';
 
 export default function CartModal() {
@@ -99,7 +100,7 @@ export default function CartModal() {
               <div className="cart-items">
                 {cart.map((item) => (
                   <div key={`${item.id}-${item.size}`} className="cart-item">
-                    <img src={item.imageUrl || item.image || '/images/apparel.png'} alt={item.name} className="cart-item-image" />
+                    <img src={item.imageUrl || item.image || getDefaultImageUrl('apparel.png')} alt={item.name} className="cart-item-image" />
                     
                     <div className="cart-item-details">
                       <h4 className="cart-item-name">{item.name}</h4>

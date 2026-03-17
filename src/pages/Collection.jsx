@@ -4,6 +4,7 @@ import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { useAuthModal } from '../context/AuthModalContext';
 import { getVideoUrl } from '../utils/cloudinaryVideoService';
+import { getDefaultImageUrl } from '../utils/cloudinaryImageService';
 import ReviewForm from '../components/ReviewForm';
 import ReviewDisplay from '../components/ReviewDisplay';
 import './Collection.css';
@@ -226,7 +227,7 @@ export default function Collection() {
             return (
             <div key={product.id} className={`product-card ${product.stock <= 0 ? 'out-of-stock' : ''}`} onClick={() => openProductModal(product)}>
               <div className="product-image">
-                <img src={product.imageUrl || product.image || '/images/apparel.png'} alt={product.name} />
+                <img src={product.imageUrl || product.image || getDefaultImageUrl('apparel.png')} alt={product.name} />
                 {discountPercent > 0 && (
                   <div className="discount-badge">{discountPercent}% OFF</div>
                 )}
@@ -311,7 +312,7 @@ export default function Collection() {
             
             <div className="modal-product-container">
               <div className="modal-product-image">
-                <img src={selectedProduct.imageUrl || selectedProduct.image || '/images/apparel.png'} alt={selectedProduct.name} />
+                <img src={selectedProduct.imageUrl || selectedProduct.image || getDefaultImageUrl('apparel.png')} alt={selectedProduct.name} />
               </div>
               
               <div className="modal-product-info">

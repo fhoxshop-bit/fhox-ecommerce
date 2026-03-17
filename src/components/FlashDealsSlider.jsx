@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
+import { getDefaultImageUrl } from '../utils/cloudinaryImageService';
 import './FlashDealsSlider.css';
 
 export default function FlashDealsSlider() {
@@ -243,7 +244,7 @@ export default function FlashDealsSlider() {
                 <div className="deal-image-container">
                   <div className="deal-image">
                     <img
-                      src={product.imageUrl || product.image || '/images/apparel.png'}
+                      src={product.imageUrl || product.image || getDefaultImageUrl('apparel.png')}
                       alt={product.name}
                     />
                     <div className="deal-badge">{deal.discountPercent}% OFF</div>
@@ -312,7 +313,7 @@ export default function FlashDealsSlider() {
             
             <div className="modal-product-container">
               <div className="modal-product-image">
-                <img src={selectedProduct.imageUrl || selectedProduct.image || '/images/apparel.png'} alt={selectedProduct.name} />
+                <img src={selectedProduct.imageUrl || selectedProduct.image || getDefaultImageUrl('apparel.png')} alt={selectedProduct.name} />
               </div>
               
               <div className="modal-product-info">

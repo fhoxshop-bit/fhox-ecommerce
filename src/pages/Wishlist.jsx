@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { useAuthModal } from '../context/AuthModalContext';
+import { getLogoUrl } from '../utils/cloudinaryImageService';
 import './Wishlist.css';
 
 export default function Wishlist() {
@@ -121,7 +122,7 @@ export default function Wishlist() {
     return (
       <div className="wishlist-page">
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '60vh' }}>
-          <img src="/images/fhox.png" alt="FHOX Logo" style={{ width: '200px', marginBottom: '30px', opacity: 0.8 }} />
+          <img src={getLogoUrl('fhox.png')} alt="FHOX Logo" style={{ width: '200px', marginBottom: '30px', opacity: 0.8 }} />
           <h2>Your wishlist is empty</h2>
           <p>Browse our collection and add items you love.</p>
         </div>
@@ -132,7 +133,7 @@ export default function Wishlist() {
   return (
     <div className="wishlist-page">
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '30px' }}>
-        <img src="/images/fhox.png" alt="FHOX Logo" style={{ width: '150px', marginBottom: '20px', opacity: 0.8 }} />
+        <img src={getLogoUrl('fhox.png')} alt="FHOX Logo" style={{ width: '150px', marginBottom: '20px', opacity: 0.8 }} />
       </div>
       <h2>My Wishlist</h2>
       <div className="product-grid">

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FiHome, FiPackage, FiUpload, FiMail, FiSettings, FiShoppingCart, FiX, FiBarChart2, FiTag, FiZap } from 'react-icons/fi'
+import { getLogoUrl } from '../utils/cloudinaryImageService'
 import './Sidebar.css'
 
 export default function Sidebar({ open, setOpen }) {
@@ -82,7 +83,7 @@ export default function Sidebar({ open, setOpen }) {
       <aside className={`sidebar ${open ? 'open' : 'closed'}`}>
         <div className="sidebar-header">
           <div className="logo">
-            <img src="/images/fhoxxxx.png" alt="FHOX Logo" className="logo-image" />
+            <img src={getLogoUrl('fhoxxxx.png')} alt="FHOX Logo" className="logo-image" />
             <span>Admin</span>
           </div>
           <button className="close-btn" onClick={() => setOpen(false)}>
@@ -120,7 +121,7 @@ export default function Sidebar({ open, setOpen }) {
         <div className="sidebar-footer">
           <div className="user-card">
             <div className="user-avatar">
-              <img src="/images/fhoxxxx.png" alt="FHOX" className="avatar-logo" />
+              <img src={getLogoUrl('fhoxxxx.png')} alt="FHOX" className="avatar-logo" />
             </div>
             <div className="user-info">
               <p>Admin User</p>

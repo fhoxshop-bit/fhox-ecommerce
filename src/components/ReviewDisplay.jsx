@@ -1,4 +1,5 @@
 import React from 'react';
+import { getDefaultImageUrl } from '../utils/cloudinaryImageService';
 import './ReviewDisplay.css';
 
 const StarRating = ({ rating }) => {
@@ -46,7 +47,7 @@ export default function ReviewDisplay({ reviews = [], averageRating = 0, totalRe
               {product && (
                 <div className="review-product-info">
                   <img 
-                    src={product.imageUrl || product.image || '/images/apparel.png'} 
+                    src={product.imageUrl || product.image || getDefaultImageUrl('apparel.png')} 
                     alt={product.name}
                     className="review-product-image"
                   />

@@ -3,6 +3,7 @@ import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { useAuthModal } from '../context/AuthModalContext';
+import { getDefaultImageUrl } from '../utils/cloudinaryImageService';
 import './ProductDetail.css';
 
 export default function ProductDetail() {
@@ -141,7 +142,7 @@ export default function ProductDetail() {
       <div className="product-detail-container">
         <div className="product-content">
           <div className="product-image-section">
-            <img src={product.imageUrl || product.image || '/images/apparel.png'} alt={product.name} />
+            <img src={product.imageUrl || product.image || getDefaultImageUrl('apparel.png')} alt={product.name} />
           </div>
           
           <div className="product-info-section">
