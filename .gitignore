@@ -31,6 +31,12 @@ Thumbs.db
 backend/uploads/
 backend/cloudinary-upload-mapping.json
 
+# Large video files (exceeds GitHub limit)
+public/videos/
+*.mp4
+*.mov
+*.avi
+
 # Logs
 logs/
 *.log
@@ -38,3 +44,4 @@ logs/
 # Temporary files
 .cache/
 .temp/
+
